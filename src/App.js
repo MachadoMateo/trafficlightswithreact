@@ -31,9 +31,9 @@ function App() {
   return (
     <>
     <div className="App">
-      <button onClick={()=>{texto()}}>Click Here</button>
-      <button onClick={()=>{img()}}>button 2</button>
-      <button onClick={()=>{back()}}>button 3</button>
+      <button onClick={()=>{texto()}}>STOP</button>
+      <button onClick={()=>{img()}}>WAIT</button>
+      <button onClick={()=>{back()}}>RUN</button>
       
       <div className='trafficlights' style={colores}>
         {contenido}
